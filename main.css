@@ -164,7 +164,7 @@ main {
 
 /* NAV */
 
-nav ul {
+.nav ul {
   display: flex;
   gap: 1.5rem;
   padding-top: 2.8rem;
@@ -302,11 +302,19 @@ section {
   margin: 0;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 650px) {
   .flex-container {
     display: flex;
     flex-wrap: wrap;
     gap: 10%;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .blog-title {
+    padding-top: 2.8rem;
   }
 
   .main-blog {
